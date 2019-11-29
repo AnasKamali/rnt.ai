@@ -1,0 +1,73 @@
+.chatBotButton{
+    border: 0em;
+    outline: none;
+    position: fixed;
+    height: 58px;
+    width: 58px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 11111;
+    background-color: aqua;
+    border-radius: 100%;
+}
+.chatBotButton_close{
+    position: fixed;
+    bottom: 502px;
+    right: 10px;
+    z-index: 1111;
+    height: 48px;
+    width: 48px;
+    background-color: rgba(0,0,0,0);
+
+}
+.chatBotButton_i{
+
+    z-index: 22222;
+    height: 58px;
+    width: 58px;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+    cursor: pointer;
+
+
+}
+.chatBotButton_i_close{
+    cursor: pointer;
+    margin-top: 29%;
+    text-align: center;
+    color: white;
+    z-index: 22222;
+    height: 48px;
+    width: 48px;
+}
+.chatBot_iframe{
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    z-index: 1111;
+    height: 0px;
+    width: 0px;
+    background-color: rgba(0,0,0,0);
+
+}
+
+
+.chatBot_iframe_open{
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    z-index: 1111;
+    height: 600px;
+    width: 400px;
+    background-color: rgba(0,0,0,0);
+}
+
+
+.displayClose{
+	display: none;
+}
+
+.imageStyle{
+	width: 30px;
+} 
